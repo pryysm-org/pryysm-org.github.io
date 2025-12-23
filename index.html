@@ -1,10 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Pryysm</title>
-  </head>
-  <body>
-    Pryysm online.
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Pryysm</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="noise"></div>
+
+  <main class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+      <img src="assets/logo.png" alt="Pryysm logo" class="logo" />
+
+      <h1>PRYYSM</h1>
+      <p class="subtitle">Personal project infrastructure.</p>
+
+      <div class="beam"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+      <h2>PROJECTS</h2>
+
+      <a class="project" href="/division-db">
+        <div>
+          <h3>Division Database</h3>
+          <p>Snapshot-driven history and analytics for HL2RP divisions.</p>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="project" href="/telemetry">
+        <div>
+          <h3>Telemetry</h3>
+          <p>System monitoring and performance experiments.</p>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+
+      <a class="project" href="/lab">
+        <div>
+          <h3>Lab</h3>
+          <p>Unstable and experimental tools.</p>
+        </div>
+        <span class="arrow">›</span>
+      </a>
+    </section>
+
+    <!-- STATUS -->
+    <section class="status">
+      <h2>SYSTEM STATUS</h2>
+      <pre>
+site ........ online
+last deploy . 2025-01-14
+data freshness 2h ago
+      </pre>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      github.com/pryysm-org
+    </footer>
+
+  </main>
+
+</body>
 </html>
