@@ -221,6 +221,7 @@ body{
   justify-content:space-between;
   gap:24px;
   padding:28px 0;
+  border-radius:10px;
   border-bottom:1px solid var(--line2);
   color:var(--fg);
   text-decoration:none;
@@ -235,11 +236,13 @@ body{
   font-size:26px;
   font-weight:650;
   margin-bottom:6px;
+  margin-left:20%;
 }
 
 .project-desc{
   color:var(--muted);
   line-height:1.45;
+  margin-left:20%;
 }
 
 .project-right{
